@@ -60,29 +60,29 @@
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Housing<b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Sale</a></li>
-                    <li><a href="#">Rental</a></li>
+                    <li><a href="/inmobiliaria/index.php/housingForSale">Sale</a></li>
+                    <li><a href="/inmobiliaria/index.php/housingForRental">Rental</a></li>
                   </ul>
                 </li>
 
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Departaments <b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Sale</a></li>
-                    <li><a href="#">Rental</a></li>
+                    <li><a href="/inmobiliaria/index.php/departamentForSale">Sale</a></li>
+                    <li><a href="/inmobiliaria/index.php/departamentForRental">Rental</a></li>
                   </ul>
                 </li>
 
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Fields<b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Sale</a></li>
-                    <li><a href="#">Rental</a></li>
+                    <li><a href="/inmobiliaria/index.php/fieldForSale">Sale</a></li>
+                    <li><a href="/inmobiliaria/index.php/fieldForRental">Rental</a></li>
                   </ul>
                 </li>
              </ul>
              <ul class="nav navbar-nav pull-right">
-             	<li><a href="#"><span class="glyphicon glyphicon-search"></span>Search</a></li>
+             	<li><a href="/inmobiliaria/index.php/search"><span class="glyphicon glyphicon-search"></span>Search</a></li>
 			</ul>
             </div>
           </div>

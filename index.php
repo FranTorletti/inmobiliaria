@@ -16,6 +16,15 @@ Session::init();
 Controller::$router->get('/', 'HomeController', 'index');
 Controller::$router->get('/login', 'HomeController', 'login');
 Controller::$router->get('/privacy', 'HomeController', 'privacy');
+Controller::$router->get('/housingForSale', 'HomeController', 'showHousingForSale');
+Controller::$router->get('/housingForRental', 'HomeController', 'showHousingForRental');
+Controller::$router->get('/departamentForSale', 'HomeController', 'showDepartamentsForSale');
+Controller::$router->get('/departamentForRental', 'HomeController', 'showDepartamentsForRental');
+Controller::$router->get('/fieldForSale', 'HomeController', 'showFieldsForSale');
+Controller::$router->get('/fieldForRental', 'HomeController', 'showFieldsForRental');
+Controller::$router->get('/search', 'HomeController', 'searchTo');
+
+
 Controller::$router->get('/terms', 'HomeController', 'terms');
 
 //run server
