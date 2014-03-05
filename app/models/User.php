@@ -2,10 +2,10 @@
 /**
  * User
  *
- * @Table(name="Users")
+ * @Table(name="User")
  * @Entity(repositoryClass="UsersRepository")
  */
-class Users {
+class User {
     /**
      * @var integer
      *

@@ -21,7 +21,7 @@ return array(
     'POP3' => $vendorDir . '/phpmailer/phpmailer/class.pop3.php',
     'Pagination' => $vendorDir . '/fmunoz92/mili/src/Pagination.php',
     'Publication' => $baseDir . '/app/models/Publication.php',
-    'PublicationController' => $baseDir . '/app/controllers/PublicationController.php',
+    'PublicationRepository' => $baseDir . '/app/repositories/PublicationRepository.php',
     'Router' => $vendorDir . '/fmunoz92/mili/src/Router.php',
     'SMTP' => $vendorDir . '/phpmailer/phpmailer/class.smtp.php',
     'Session' => $vendorDir . '/fmunoz92/mili/src/Session.php',
@@ -32,7 +32,7 @@ return array(
     'SmartyException' => $vendorDir . '/smarty/smarty/distribution/libs/Smarty.class.php',
     'Smarty_Security' => $vendorDir . '/smarty/smarty/distribution/libs/sysplugins/smarty_security.php',
     'Translator' => $vendorDir . '/fmunoz92/mili/src/Translator.php',
-    'Users' => $baseDir . '/app/models/Users.php',
+    'User' => $baseDir . '/app/models/User.php',
     'UsersController' => $baseDir . '/app/controllers/UsersController.php',
     'phpmailerException' => $vendorDir . '/phpmailer/phpmailer/class.phpmailer.php',
 );

@@ -66,7 +66,11 @@ class Publication {
      */
     private $novelty;
 
-
+    /**
+     * @ManyToOne(targetEntity = "User", inversedBy="publications" )
+     * @JoinColumn(name = "Users", referencedColumnName="id")
+     */
+    private $user;
 
     /**
      * Get id
@@ -229,6 +233,25 @@ class Publication {
      */
     public function getNovelty() {
         return $this->novelty;
+    }
+
+    /**
+     * Set user
+     *
+     * @param string $user
+     * @return user
+     */
+    public function setUser($user) {
+        $this->user = $user;
+        return $this;
+    }
+    /**
+     * Get user
+     *
+     * @return string 
+     */
+    public function getUser() {
+        return $this->user;
     }
 }
 ?>
